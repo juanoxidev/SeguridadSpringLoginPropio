@@ -11,4 +11,20 @@ public class ElControllador {
 		// nombre JSP
 		return "inicio";
 	}
+	
+	// agregando Mapping a administradores
+	
+	@RequestMapping("/administradores")
+	public String muestraAdministradores() {
+		// nombre JSP
+		return "paneladmin";
+	}
+	
+	@RequestMapping("/acceso-denegado")
+	public String muestraAccesoDenegado() {
+		// nombre JSP
+		return "acceso-denegado";
+	}
+	
+	
 }
